@@ -6,6 +6,7 @@ display = pygame.display.set_mode((800, 600))
 pygame.display.set_caption('Hello World!')
 clock = pygame.time.Clock()
 
+print("hello")
 
 class Player_Bullet: 
     def __init__(self, x, y, mouse_x, mouse_y):
